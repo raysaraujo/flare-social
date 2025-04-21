@@ -1,13 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Flare</title>
+    <title>Flare - Sua Rede Social</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        .cabecalho {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .post {
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .post-actions button {
+            background: #FF5F1F;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
+    <!-- Seu cabeçalho -->
     <div class="cabecalho">
         <h1>🌟 Minha Rede Social Flare! 🌟</h1>
         <p>Olá! Este é meu primeiro site no ar!</p>
     </div>
+
+    <!-- Área de Novo Post -->
+    <div class="novo-post">
+        <h3>Criar Novo Post</h3>
+        <textarea id="texto-post" placeholder="O que você está pensando?"></textarea>
+        <button onclick="publicarPost()">Publicar</button>
+    </div>
+
+    <!-- Feed de Posts -->
+    <div id="feed"></div>
+
+    <script>
+        // [O código JavaScript completo que enviei anteriormente]
+        // ... (coloque aqui todo o script que te enviei)
+    </script>
 </body>
 </html>
